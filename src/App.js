@@ -1,11 +1,13 @@
+import React from 'react';
+import Header from "./components/Header";
+
 function App() {
-  let name = 'brad';
-  return (
-    <div className="container">
-      <h1> Hello From React</h1>
-      <h2> hi {name} {1+1} !</h2>
-    </div>
-  );
+	let name = 'brad';
+	return (
+		<div className="container">
+			<Header title="Task Tracker"/>
+		</div>
+	);
 }
 
 export default App;
